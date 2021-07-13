@@ -6,7 +6,8 @@ public class MoodAnalyzerTest {
 
 	// Test-Case for SadMood
 		@Test
-		public void givenMessage_whenSad_ShouldReturnSad() {
+		public void givenMessage_whenSad_ShouldReturnSad() 
+		{
 			MoodAnalyzer moodAnalyzer = new MoodAnalyzer("I am Sad");
 			String actual = moodAnalyzer.analyseMood();
 			String expected = "SAD";
@@ -16,7 +17,8 @@ public class MoodAnalyzerTest {
 
 		// Test-Case for HappyMood
 		@Test
-		public void givenMessage_whenHappy_ShouldReturnHappy() {
+		public void givenMessage_whenHappy_ShouldReturnHappy() 
+		{
 			MoodAnalyzer moodAnalyzer = new MoodAnalyzer("I am Happy");
 			String actual = moodAnalyzer.analyseMood();
 			String expected = "HAPPY";
